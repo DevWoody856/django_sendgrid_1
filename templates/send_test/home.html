@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>SendGrid Test App</h1>
+    <form id="TestForm" method="post" action="{% url 'send_mail:send_test' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" value="Test">send message</button>
+    </form>
+{% endblock %}
