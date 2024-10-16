@@ -1,5 +1,6 @@
 
-This is the repository for [this blog post](https://rx-36.life/create-a-contact-form-using-sendgrid-with-django/){target="_blank"}.
+This is the repository for <a href="https://rx-36.life/create-a-contact-form-using-sendgrid-with-django/" target="_blank"><span class="link">this blog post</span></a>.
+
 
 It demonstrates a simple application: "Creating a contact form using SendGrid with Django".
 
